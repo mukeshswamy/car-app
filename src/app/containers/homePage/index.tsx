@@ -1,9 +1,9 @@
-import React from "react"
-import styled from "styled-components"
+import React from "react";
+import styled from "styled-components";
 import tw from "twin.macro";
 
 const PageContainer = styled.div`
-    ${tw`
+  ${tw`
         flex
         flex-col
         w-full
@@ -13,8 +13,6 @@ const PageContainer = styled.div`
     `}
 `;
 
-export function HomePage(){
-    return <PageContainer>
-        Hello Worlds
-    </PageContainer>
+export function HomePage() {
+  return <PageContainer>Hello Worlds</PageContainer>;
 }
